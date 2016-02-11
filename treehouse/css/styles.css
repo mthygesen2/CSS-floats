@@ -1,7 +1,8 @@
 * {
   font-family: 'ubuntu', sans-serif;
-  color: #888;
+  color: #7B8B8E;
 }
+
 body {
   margin: 0;
 }
@@ -10,13 +11,12 @@ body {
   width: 75%;
   margin: auto;
   padding: 0 2%;
-  background: #ddd;
+  background: #EDEFF0;
   overflow: auto;
-
 }
 
 h2, h4 {
-    color: #333;
+    color: #484F55;
 }
 
 h5 {
@@ -29,7 +29,7 @@ h4 {
 }
 
 nav {
-  box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 8px 15px -10px #7B8B8E;
   overflow: auto;
   padding: 10px;
 }
@@ -46,7 +46,7 @@ nav h2 {
 }
 
 .navIcons span {
-    color: #bbb;
+   color: #bbb;
 }
 
 .navIcons span:first-child {
@@ -59,11 +59,13 @@ nav h2 {
   vertical-align: middle;
   padding-bottom: 5px;
 }
+
 .navIcons span:nth-child(4),
 .navIcons span:nth-child(5){
   padding: 0 20px;
   border-left: 1px solid #000;
 }
+
 .allCourses {
   margin: auto;
   overflow: auto;
@@ -75,6 +77,7 @@ nav h2 {
   float: left;
   margin-top: 2%;
   background-color: white;
+  box-shadow: 0px 2px 0px 0px #DFE1E2;
 }
 
 .allCourses .course:nth-child(even) {
@@ -85,12 +88,22 @@ nav h2 {
   overflow: auto;
 }
 
-.java {
-  background-color: #286;
+.java, .javaFx {
+  background-color: #2C9676;
   border-radius: 5px 5px 0 0;
 }
 
-.courseHead li, .java span {
+.django {
+  background-color: #F092B0;
+  border-radius: 5px 5px 0 0;
+}
+
+.woo {
+  background-color: #838CC7;
+  border-radius: 5px 5px 0 0;
+}
+
+.courseHead li, .courseHead span {
   color: white;
 }
 
@@ -100,7 +113,7 @@ nav h2 {
   padding-right: 30px;
 }
 
-.courseHead li:nth-child(2), .java li:last-child {
+.courseHead li:not(:first-child) {
   font-size: .5rem;
 }
 
@@ -131,26 +144,41 @@ nav h2 {
 
 .courseFoot span {
   float: right;
-  padding: 15px;
-  border: 2px solid #bbb;
+  padding: 10px;
+  border: 2px solid #EDEFF0;
   border-radius: 50%;
   margin-left: 15px;
   width: 15px;
   height: 15px;
   text-align: right;
-  color: #bbb;
+  color: #D4D9DD;
 }
 
 .courseFoot a {
   line-height: 49px;
   text-decoration: none;
-  border: 2px solid #bbb;
+  border: 2px solid #EDEFF0;
   border-radius: 20px;
   padding: 10px 15px;
   margin-right: 10px;
   font-weight: bold;
 }
 
-.courseFoot a:first-child {
-  color: #286;
+.java + .courseInfo + .courseFoot a:first-child,
+.javaFx + .courseInfo + .courseFoot a:first-child{
+  color: #2C9676;
+}
+
+.django + .courseInfo + .courseFoot a:first-child {
+  color: #F092B0;
+}
+
+.woo + .courseInfo + .courseFoot a:first-child {
+  color: #838CC7;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 6px;
+  border-bottom: 2px solid #DFE1E2;
 }
