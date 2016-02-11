@@ -1,0 +1,55 @@
+body, html {
+  margin: 0;
+  box-sizing: border-box;
+  background: #555;
+}
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+  background: #E99;
+}
+
+
+header {
+  background: #999;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  background: #965;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav li {
+  display: inline;
+  padding-left: 10px;
+}
+
+main {
+  float: left;
+  width: 50%;
+  background: #9BB;
+  padding: 5%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  background: #E99;
+  padding: 5%;
+}
+
+footer {
+  clear: both;
+  background: #CC9;
+  padding: 10px;
+  text-align: center;
+}
