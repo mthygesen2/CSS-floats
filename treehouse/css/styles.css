@@ -1,0 +1,72 @@
+* {
+  font-family: 'ubuntu', sans-serif;
+  color: #888;
+}
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: 75%;
+  margin: auto;
+  padding: 0 2%;
+  background: #ddd;
+  overflow: auto;
+
+}
+
+h2, h4 {
+    color: #333;
+}
+
+nav {
+  box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.75);
+  overflow: auto;
+  padding: 10px;
+}
+
+nav h2 {
+  margin: 0;
+  float: left;
+  line-height: 37px;
+}
+
+.navIcons {
+  float: right;
+  font-size: 2em;
+}
+
+.navIcons span {
+    color: #bbb;
+}
+
+.navIcons span:first-child {
+  font-size: 1.5rem;
+}
+
+.navIcons span:nth-child(3) {
+  padding-right: 10px;
+  font-size: 0.5em;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+.navIcons span:nth-child(4),
+.navIcons span:nth-child(5){
+  padding: 0 20px;
+  border-left: 1px solid #000;
+}
+.allCourses {
+  margin: auto;
+  overflow: auto;
+}
+
+.course {
+  width: 48.5%;
+  border: 1px solid black;
+  float: left;
+  margin-top: 2%;
+}
+
+.allCourses .course:nth-child(even) {
+  float: right
+}
