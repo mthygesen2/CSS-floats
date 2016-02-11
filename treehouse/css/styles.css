@@ -19,6 +19,15 @@ h2, h4 {
     color: #333;
 }
 
+h5 {
+  margin: 0;
+}
+
+h4 {
+  margin-bottom: 25px;
+  margin-top: 8px;
+}
+
 nav {
   box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.75);
   overflow: auto;
@@ -62,11 +71,86 @@ nav h2 {
 
 .course {
   width: 48.5%;
-  border: 1px solid black;
+  border-radius: 5px;
   float: left;
   margin-top: 2%;
+  background-color: white;
 }
 
 .allCourses .course:nth-child(even) {
   float: right
+}
+
+.courseHead {
+  overflow: auto;
+}
+
+.java {
+  background-color: #286;
+  border-radius: 5px 5px 0 0;
+}
+
+.courseHead li, .java span {
+  color: white;
+}
+
+.courseHead span {
+  padding: 18px;
+  float: right;
+  padding-right: 30px;
+}
+
+.courseHead li:nth-child(2), .java li:last-child {
+  font-size: .5rem;
+}
+
+.courseHead li {
+  padding-right:5px;
+  vertical-align: middle;
+}
+
+.courseHead li:first-child {
+  padding-right: 10px;
+  font-size: 1.5rem;
+}
+
+.courseHead ul {
+  float: left;
+  padding-left: 30px;
+}
+
+.courseInfo, .courseFoot {
+  padding: 30px;
+}
+
+.courseFoot {
+  overflow: auto;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+.courseFoot span {
+  float: right;
+  padding: 15px;
+  border: 2px solid #bbb;
+  border-radius: 50%;
+  margin-left: 15px;
+  width: 15px;
+  height: 15px;
+  text-align: right;
+  color: #bbb;
+}
+
+.courseFoot a {
+  line-height: 49px;
+  text-decoration: none;
+  border: 2px solid #bbb;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.courseFoot a:first-child {
+  color: #286;
 }
