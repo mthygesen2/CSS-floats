@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 500px;
+  background-image: url('https://static.pexels.com/photos/7347/pexels-photo.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  overflow: auto;
+  padding: 20px;
+}
+
+nav h1 {
+  color: #fff;
+  margin: 0;
+  float: left;
+  font-size: 3em;
+  font-weight: 300;
+  font-family: 'Shadows Into Light', cursive;
+  letter-spacing: 10px;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  padding-top: 5px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-left: 20px;
+  font-weight: 300;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+nav ul li {
+  display: inline;
+}
+
+main {
+  overflow: auto;
+  padding: 2%;
+
+  margin-top: 000px;
+  background: white;
+}
+
+.aboutMe {
+  float: left;
+  width: 50%;
+  padding-right: 2%;
+}
+
+.socialIcons {
+  margin-bottom: 26px;
+}
+
+.socialIcons span {
+  font-size: 2em;
+  padding-right: 2%;
+}
+
+.aboutMe a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #00467E;
+  color: white;
+}
+
+.photos {
+  float: left;
+  width: 50%;
+  padding-left: 2%;
+  padding-right: 2%; */
+}
+
+.photos h2 {
+  padding-left: 2%;
+}
+
+.gallery{
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.gallery img {
+  max-width: 29.33%;
+  float: left;
+  margin: 2%;
+}
+
+.gallery img:nth-child(1),
+.gallery img:nth-child(2),
+.gallery img:nth-child(3) {
+  margin-top: 0;
+}
+
+footer {
+/*   clear:both; */
+  text-align: center;
+  border-top: 1px solid #777;
+  padding: 10px;
+}
