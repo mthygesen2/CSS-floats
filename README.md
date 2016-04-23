@@ -8,6 +8,9 @@
 The idea of this application was to only use floats in order to make a basic layout. We used no bootstrap, tavles, inline-block. 
 This was made to consider the amount of trouble developers have had in the past. 
 
+There is a basic layout along with a replica of the treehouse library. 
+
+
 ## Setup/Installation Requirements
 
 * `git clone <https://github.com/mthygesen2/CSS-floats.git>` this repository
